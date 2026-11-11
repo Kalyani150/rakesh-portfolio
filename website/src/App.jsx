@@ -6,7 +6,6 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Project from "./pages/Project.jsx";
 import Projects from "./pages/Projects.jsx";
-import { firebaseReady } from "./firebase";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -20,12 +19,6 @@ export default function App() {
   return (
     <>
       <ScrollToTop />
-      {!firebaseReady && (
-        <div className="banner">
-          Firebase isn’t configured yet. Add your config to <code>.env.local</code> and
-          restart the dev server — see <strong>README.md</strong>, step 2.
-        </div>
-      )}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
