@@ -6,17 +6,10 @@ import HomeEditor from "./pages/HomeEditor.jsx";
 import AboutEditor from "./pages/AboutEditor.jsx";
 import ServicesEditor from "./pages/ServicesEditor.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
-import { firebaseReady } from "./firebase";
 
 export default function App() {
   return (
     <>
-      {!firebaseReady && (
-        <div className="banner">
-          Firebase isn’t configured yet. Add your config to <code>.env.local</code> and
-          restart the dev server — see <strong>README.md</strong>, step 2.
-        </div>
-      )}
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
