@@ -1,0 +1,1145 @@
+{
+    "home":  {
+                 "success":  true,
+                 "data":  {
+                              "_id":  "6a952aacc4b8a54e9da8bde8",
+                              "role":  "UI/UX DESIGNER",
+                              "firstName":  "Rakesh",
+                              "lastName":  "Parvathneni",
+                              "location":  "I am a UI/UX Designer based in Hyderabad.",
+                              "imageUrl":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789560032/home_profiles/na58kyqrhbwo7sob8utr.webp",
+                              "experienceYears":  "01+",
+                              "clientsCount":  "10+",
+                              "totalProjectsCount":  "+20",
+                              "tickerText":  "Let\u0027s Create Something Meaningful",
+                              "ctaHeading":  "Let\u0027s work together.",
+                              "services":  [
+                                               {
+                                                   "title":  "UI/UX DESIGN",
+                                                   "_id":  "6aafd04a7c459d509eb23998"
+                                               },
+                                               {
+                                                   "title":  "WEB \u0026 LANDING",
+                                                   "_id":  "6aafd04a7c459d509eb23999"
+                                               },
+                                               {
+                                                   "title":  "SAAS \u0026 APPS",
+                                                   "_id":  "6aafd04a7c459d509eb2399a"
+                                               },
+                                               {
+                                                   "title":  "WIREFRAMES",
+                                                   "_id":  "6aafd04a7c459d509eb2399b"
+                                               }
+                                           ],
+                              "createdAt":  "2026-08-31T07:18:04.463Z",
+                              "updatedAt":  "2026-09-20T12:23:38.633Z",
+                              "__v":  3
+                          }
+             },
+    "about":  {
+                  "_id":  "6a953359540c92985cb5b4a2",
+                  "fullName":  "Rakesh Parvathneni",
+                  "title":  "UI/UX Designer",
+                  "bio":  "I\u0027m a UI/UX Designer with 1+ year of experience creating intuitive web, SaaS, and dashboard experiences, from wireframes to high-fidelity UI.",
+                  "imageUrl":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789560116/portfolio/about/maxjrx7mjbrnnpbpcv5w.webp",
+                  "experiences":  [
+                                      {
+                                          "period":  "June 2025 – Present",
+                                          "role":  "UI/UX Designer",
+                                          "company":  "KBK Business Solutions Pvt. Ltd.",
+                                          "points":  "Web \u0026 Landing Page Design\nSaaS \u0026 Enterprise Dashboard Design\nUser Flows \u0026 Wireframing\nHigh-Fidelity UI Design \u0026 Prototyping\nCompetitor Research \u0026 Information Architecture\nDeveloper Collaboration \u0026 Design Handoff",
+                                          "_id":  "6a953359540c92985cb5b4a3"
+                                      }
+                                  ],
+                  "education":  [
+                                    {
+                                        "degree":  "Diploma in UI/UX Design",
+                                        "institution":  "Creative Multimedia Academy, Dilsukhnagar",
+                                        "_id":  "6a953359540c92985cb5b4a4"
+                                    },
+                                    {
+                                        "degree":  "MBA (HR)",
+                                        "institution":  "Sri Chaitanya Technical Campus (JNTUH)",
+                                        "_id":  "6a953359540c92985cb5b4a5"
+                                    },
+                                    {
+                                        "degree":  "B.Com",
+                                        "institution":  "Siddhartha Degree College (OU)",
+                                        "_id":  "6a953359540c92985cb5b4a6"
+                                    }
+                                ],
+                  "createdAt":  "2026-08-31T07:55:05.183Z",
+                  "updatedAt":  "2026-09-20T12:31:12.043Z",
+                  "__v":  2
+              },
+    "profile":  {
+                    "experience":  {
+                                       "duration":  "June 2025 – Present",
+                                       "role":  "UI/UX Designer  ",
+                                       "company":  "KBK Business Solutions Pvt. Ltd.",
+                                       "description":  "Designing web interfaces, SaaS dashboards, landing pages, and business websites. Creating user flows, wireframes, and high-fidelity UI designs while collaborating with developers to deliver consistent, production-ready experiences."
+                                   },
+                    "_id":  "6a955ce4ee3825068b94db8b",
+                    "name":  "Rakesh Parvathneni",
+                    "handle":  "@rakeshparvathneni",
+                    "avatar":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789560104/portfolio_profile/lhjypd8nczlqmaayympw.webp",
+                    "about":  "I\u0027m Rakesh Parvathneni, a UI/UX Designer with 1+ year of professional experience creating intuitive web interfaces, SaaS products, dashboards, and business websites. I focus on user flows, wireframes, high-fidelity UI design, and creating clear, user-friendly digital experiences.",
+                    "education":  [
+                                      {
+                                          "title":  "Diploma in UI/UX Design",
+                                          "academy":  "Creative Multimedia Academy, Dilsukhnagar",
+                                          "_id":  "6aafd9a8d3584ef56573171e"
+                                      },
+                                      {
+                                          "title":  "MBA (HR)",
+                                          "academy":  "Sri Chaitanya Technical Campus (JNTUH)",
+                                          "_id":  "6aafd9a8d3584ef56573171f"
+                                      },
+                                      {
+                                          "title":  "B.Com",
+                                          "academy":  "Siddhartha Degree College (OU)",
+                                          "_id":  "6aafd9a8d3584ef565731720"
+                                      },
+                                      {
+                                          "title":  "SSC",
+                                          "academy":  "Loyola Model High School",
+                                          "_id":  "6aafd9a8d3584ef565731721"
+                                      }
+                                  ],
+                    "skills":  [
+                                   "UI/UX Design",
+                                   "Wireframing \u0026 User Flows",
+                                   "High-Fidelity UI Design",
+                                   "Dashboard Design",
+                                   "Landing Page Design",
+                                   "Information Architecture",
+                                   "Competitor Research",
+                                   "Design Systems"
+                               ],
+                    "tools":  [
+                                  "Figma",
+                                  "Adobe XD",
+                                  "Adobe Illustrator",
+                                  "Adobe Photoshop ",
+                                  "HTML \u0026 CSS"
+                              ],
+                    "certification":  [
+                                          {
+                                              "title":  "Diploma in UI/UX Design",
+                                              "academy":  "Creative Multimedia Academy, Dilsukhnagar",
+                                              "_id":  "6aafd9a8d3584ef565731722"
+                                          }
+                                      ],
+                    "createdAt":  "2026-08-31T10:52:20.579Z",
+                    "updatedAt":  "2026-09-20T13:03:36.665Z",
+                    "__v":  1
+                },
+    "projects":  {
+                     "success":  true,
+                     "count":  11,
+                     "data":  [
+                                  {
+                                      "_id":  "6a97c81a99a5bb8c9e1ef949",
+                                      "title":  "ONLINE DB EXTRACTOR",
+                                      "category":  "SAAS PRODUCT • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789988879/portfolio_projects/mdvve7czb3n31x4gd10y.png",
+                                      "order":  0,
+                                      "subtitle":  "SAAS PRODUCT DESIGN",
+                                      "description":  "Designing a clear and efficient SaaS experience for extracting, managing, and organizing business data through streamlined workflows and intuitive interfaces.",
+                                      "role":  "UI/UX DESIGNER",
+                                      "year":  "2025",
+                                      "projectName":  "ONLINE DB EXTRACTOR",
+                                      "platform":  "Web Application",
+                                      "tools":  "Figma, Photoshop \u0026 Illustrator",
+                                      "scope":  "UX Research, UI/UX Design, Design System",
+                                      "client":  "KBK Business solutions",
+                                      "metadataCategory":  "SaaS/web Applicaton",
+                                      "metadataTools":  "Figma, Photoshop, Illustrator",
+                                      "heroImage":  "https://res.cloudinary.com/nkqeebua/image/upload/v1788346857/portfolio_projects/slq3qxn424iet32qrwho.jpg",
+                                      "brandImage":  "https://res.cloudinary.com/nkqeebua/image/upload/v1788346869/portfolio_projects/qrh0umkvcnb4nnafj8q7.jpg",
+                                      "editorialImage":  "https://res.cloudinary.com/nkqeebua/image/upload/v1788346873/portfolio_projects/ehtoy6vchk8or6hnricf.png",
+                                      "sectionImages":  [
+                                                            "https://res.cloudinary.com/nkqeebua/image/upload/v1788346963/portfolio_projects/ejqmpn7ymxa7ba8h0vqo.jpg",
+                                                            "https://res.cloudinary.com/nkqeebua/image/upload/v1788346970/portfolio_projects/hhgy8cq1h2iispbxtc8s.jpg"
+                                                        ],
+                                      "section7Image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1788347051/portfolio_projects/aafgyenxwaodj3d3rwmc.jpg",
+                                      "section9Image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1788347109/portfolio_projects/to3mhbsmez10epthcopj.jpg",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "Online DB Extractor is a SaaS platform designed to help users discover, extract, manage, and organize business data through a structured digital workflow. The product brings complex extraction tasks into a more accessible interface, helping users move from data selection to processing and results with greater clarity.",
+                                      "productDescriptionTwo":  "The experience combines authentication, extraction workflows, data tables, dashboard views, account management, subscription features, and supporting administrative tools into one connected SaaS ecosystem.",
+                                      "experienceTitle":  "A MORE STRUCTURED SAAS EXPERIENCE",
+                                      "achievements":  [
+                                                           "Increased user onboarding completion rate by 45% through a simplified step-by-step extraction setup process.",
+                                                           "Structured complex extraction tasks into clearer steps and interface states so users can understand what to do next.",
+                                                           "Created reusable visual patterns across dashboards, tables, forms, navigation, filters, and other product modules.",
+                                                           "Established a flexible interface structure that can support additional product features and workflows as the platform grows."
+                                                       ],
+                                      "footerTitle":  "DESIGNED TO MAKE COMPLEX DATA WORKFLOWS FEEL SIMPLE.",
+                                      "ecosystem":  [
+                                                        {
+                                                            "title":  "USER DASHBOARD",
+                                                            "description":  "A centralized workspace where users can manage extraction activities, review data, monitor workflows, and access important account information.",
+                                                            "icon":  "",
+                                                            "position":  "",
+                                                            "_id":  "6a98032a6cfdec7eea5b51d3"
+                                                        },
+                                                        {
+                                                            "title":  "DATA EXTRACTION",
+                                                            "description":  "A structured workflow that guides users through selecting, processing, and reviewing extracted business data.",
+                                                            "icon":  "",
+                                                            "position":  "",
+                                                            "_id":  "6a98032a6cfdec7eea5b51d4"
+                                                        },
+                                                        {
+                                                            "title":  "ADMIN PLATFORM",
+                                                            "description":  "An administrative environment for managing users, data, platform activity, and operational workflows across the product.",
+                                                            "icon":  "",
+                                                            "position":  "",
+                                                            "_id":  "6ab11fbc846feaf25327b3c8"
+                                                        }
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+                                                                           "The product involved complex data extraction workflows, multiple interface states, large amounts of structured information, and different user actions. The challenge was to organize these workflows into a clear experience without overwhelming users with technical complexity."
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+                                                                          "I focused on simplifying the overall information architecture, organizing the extraction workflow into clear steps, establishing consistent UI patterns, and creating reusable components for tables, forms, filters, navigation, and dashboard modules."
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "STRATEGIC OVERVIEW",
+                                                                "title":  "A CLEARER DATA EXTRACTION EXPERIENCE",
+                                                                "goal":  {
+                                                                             "title":  "CLARITY",
+                                                                             "description":  "Make complex data extraction workflows easier to understand and navigate."
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "STRUCTURE",
+                                                                                "description":  "I focused on simplifying the user\njourney by categorizing workflows\ninto clear, manageable steps\nfrom source connection to data\nreview."
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "THE IMPACT",
+                                                                               "description":  "The result is a structured platform\nthat balances high information\ndensity with visual clarity, allowing\ndata analysts to manage large\ndatasets without cognitive\noverload."
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "THE CHALLENGE",
+                                                               "title":  "HOW DO YOU MAKE A TECHNICALLY COMPLEX DATA WORKFLOW FEEL SIMPLE?",
+                                                               "cards":  [
+                                                                             {
+                                                                                 "icon":  "",
+                                                                                 "title":  "COMPLEX WORKFLOWS",
+                                                                                 "description":  "The product required users to move through multiple extraction steps, manage data, review results, and complete different actions without losing context.",
+                                                                                 "_id":  "6a98032a6cfdec7eea5b51d0"
+                                                                             },
+                                                                             {
+                                                                                 "icon":  "",
+                                                                                 "title":  "INFORMATION DENSITY",
+                                                                                 "description":  "Large datasets, tables, filters, and multiple information states needed to remain readable and organized without overwhelming the user.",
+                                                                                 "_id":  "6a98032a6cfdec7eea5b51d1"
+                                                                             },
+                                                                             {
+                                                                                 "icon":  "",
+                                                                                 "title":  "PRODUCT CLARITY",
+                                                                                 "description":  "Different product areas needed to feel connected so users could understand where they were, what they could do, and what action to take next.",
+                                                                                 "_id":  "6a98032a6cfdec7eea5b51d2"
+                                                                             }
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "The redesigned Online DB Extractor experience brings complex data workflows into a more structured and approachable SaaS interface. The system connects dashboards, extraction workflows, data management, and supporting product features through a consistent visual language.",
+                                                      "cards":  [
+                                                                    {
+                                                                        "title":  "CLEARER NAVIGATION",
+                                                                        "description":  "Organized product areas and workflows make it easier for users to understand where they are and move between key tasks.",
+                                                                        "_id":  "6a98032a6cfdec7eea5b51cd"
+                                                                    },
+                                                                    {
+                                                                        "title":  "CONSISTENT UI",
+                                                                        "description":  "Reusable interface patterns create a consistent experience across dashboards, tables, forms, and product workflows.",
+                                                                        "_id":  "6a98032a6cfdec7eea5b51ce"
+                                                                    },
+                                                                    {
+                                                                        "title":  "SCALABLE EXPERIENCE",
+                                                                        "description":  "The structured design approach provides a flexible foundation for expanding the product with additional features and workflows.",
+                                                                        "_id":  "6a98032a6cfdec7eea5b51cf"
+                                                                    }
+                                                                ]
+                                                  },
+                                      "__v":  0,
+                                      "createdAt":  "2026-09-02T10:38:15.942Z",
+                                      "updatedAt":  "2026-09-21T12:35:44.839Z"
+                                  },
+                                  {
+                                      "_id":  "6a98036d6cfdec7eea5b521d",
+                                      "title":  "BEAUTY BAY ACADEMY",
+                                      "category":  "EDUCATION WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789989130/portfolio_projects/gr3fwjrudf9cqxvtw60f.png",
+                                      "order":  1,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-02T11:07:25.645Z",
+                                      "updatedAt":  "2026-09-21T11:12:13.966Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafded7d3584ef565731761",
+                                      "title":  "SIDDHA THIRTHTHAM",
+                                      "category":  "BOOKING PLATFORM • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789989500/portfolio_projects/xbvj2cnxkjizwsozqhli.png",
+                                      "order":  2,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:25:43.339Z",
+                                      "updatedAt":  "2026-09-21T11:18:25.123Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafdeffd3584ef565731762",
+                                      "title":  "KBK BUSINESS SOLUTIONS",
+                                      "category":  "CORPORATE WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789987763/portfolio_projects/niuymetc6c0tu7tlknch.png",
+                                      "order":  3,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:26:23.118Z",
+                                      "updatedAt":  "2026-09-21T10:49:29.829Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafdf19d3584ef565731763",
+                                      "title":  "WCC CRICKET PLATFORM",
+                                      "category":  "SPORTS PLATFORM • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789910805/portfolio_projects/jxhuhp0gg17trxwdyzlv.png",
+                                      "order":  4,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:26:49.418Z",
+                                      "updatedAt":  "2026-09-20T13:26:49.418Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafe272d3584ef565731764",
+                                      "title":  "BHAVY\u0027S KITCHEN",
+                                      "category":  "FOOD WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789988816/portfolio_projects/sepghmvxagthgyqfvzo6.png",
+                                      "order":  5,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:41:06.657Z",
+                                      "updatedAt":  "2026-09-21T11:06:59.905Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafe2b8d3584ef565731765",
+                                      "title":  "SEN LIMITED",
+                                      "category":  "CORPORATE WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789911731/portfolio_projects/yajhtmx91nxmkdcmomly.png",
+                                      "order":  6,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:42:16.131Z",
+                                      "updatedAt":  "2026-09-20T13:42:16.131Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafe2d4d3584ef565731766",
+                                      "title":  "HARIHARA KSHETHRAM",
+                                      "category":  "RELIGIOUS WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789911758/portfolio_projects/towvqjnql4ogmu94upsv.jpg",
+                                      "order":  7,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:42:44.827Z",
+                                      "updatedAt":  "2026-09-20T13:42:44.827Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafe319d3584ef565731767",
+                                      "title":  "RAINIERSOFT GLOBAL",
+                                      "category":  "BUSINESS WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789911826/portfolio_projects/nmokrwq7usyyazj8tjva.jpg",
+                                      "order":  8,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "https://res.cloudinary.com/nkqeebua/image/upload/v1793097476/portfolio_projects/jvvb8xajjc48f86jlqwd.png",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:43:53.888Z",
+                                      "updatedAt":  "2026-10-27T10:41:59.131Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafe349d3584ef56573176a",
+                                      "title":  "MANSEE NGO",
+                                      "category":  "NGO WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789911875/portfolio_projects/lxxhrj93x5pymsiu8ep0.jpg",
+                                      "order":  9,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:44:41.268Z",
+                                      "updatedAt":  "2026-09-20T13:44:41.268Z",
+                                      "__v":  0
+                                  },
+                                  {
+                                      "_id":  "6aafe361d3584ef56573176b",
+                                      "title":  "INNOUT",
+                                      "category":  "BUSINESS WEBSITE • UI/UX DESIGN",
+                                      "image":  "https://res.cloudinary.com/nkqeebua/image/upload/v1789911901/portfolio_projects/wkgx5ik8scmk8owlldgv.png",
+                                      "order":  10,
+                                      "subtitle":  "",
+                                      "description":  "",
+                                      "role":  "",
+                                      "year":  "",
+                                      "projectName":  "",
+                                      "platform":  "",
+                                      "tools":  "",
+                                      "scope":  "",
+                                      "client":  "",
+                                      "metadataCategory":  "",
+                                      "metadataTools":  "",
+                                      "heroImage":  "",
+                                      "brandImage":  "",
+                                      "editorialImage":  "",
+                                      "sectionImages":  [
+
+                                                        ],
+                                      "section7Image":  "",
+                                      "section9Image":  "",
+                                      "productTitle":  "THE PRODUCT",
+                                      "productDescription":  "",
+                                      "productDescriptionTwo":  "",
+                                      "experienceTitle":  "",
+                                      "achievements":  [
+
+                                                       ],
+                                      "footerTitle":  "",
+                                      "ecosystem":  [
+
+                                                    ],
+                                      "challenge":  {
+                                                        "title":  "THE CHALLENGE",
+                                                        "paragraphs":  [
+
+                                                                       ]
+                                                    },
+                                      "approach":  {
+                                                       "title":  "THE APPROACH",
+                                                       "paragraphs":  [
+
+                                                                      ]
+                                                   },
+                                      "strategicOverview":  {
+                                                                "label":  "Strategic Overview",
+                                                                "title":  "Project Deep Dive",
+                                                                "goal":  {
+                                                                             "title":  "",
+                                                                             "description":  ""
+                                                                         },
+                                                                "process":  {
+                                                                                "title":  "",
+                                                                                "description":  ""
+                                                                            },
+                                                                "impact":  {
+                                                                               "title":  "",
+                                                                               "description":  ""
+                                                                           }
+                                                            },
+                                      "challengeSection":  {
+                                                               "label":  "The Challenge",
+                                                               "title":  "",
+                                                               "cards":  [
+
+                                                                         ]
+                                                           },
+                                      "outcome":  {
+                                                      "title":  "THE OUTCOME",
+                                                      "description":  "",
+                                                      "cards":  [
+
+                                                                ]
+                                                  },
+                                      "createdAt":  "2026-09-20T13:45:05.200Z",
+                                      "updatedAt":  "2026-09-20T13:45:05.200Z",
+                                      "__v":  0
+                                  }
+                              ]
+                 },
+    "services":  {
+                     "value":  [
+                                   {
+                                       "_id":  "6a9569b35ed5257cc6c08d17",
+                                       "num":  "01",
+                                       "title":  " UI/UX DESIGN",
+                                       "desc":  "Crafting intuitive and engaging user experiences tailored to your audience.",
+                                       "cardDesc":  "Intuitive user-focused experiences that bridge the gap between user needs and business goals.",
+                                       "createdAt":  "2026-08-31T11:46:59.704Z",
+                                       "updatedAt":  "2026-08-31T11:46:59.704Z",
+                                       "__v":  0
+                                   },
+                                   {
+                                       "_id":  "6a9569d65ed5257cc6c08d19",
+                                       "num":  "02",
+                                       "title":  "WEB \u0026 LANDING PAGE DESIGN",
+                                       "desc":  "Designing responsive websites and landing pages with clear content structure and engaging user experiences.",
+                                       "cardDesc":  "Creating modern, responsive website experiences with strong visual hierarchy, clear messaging, and conversion-focused layouts.",
+                                       "createdAt":  "2026-08-31T11:47:34.079Z",
+                                       "updatedAt":  "2026-08-31T11:47:34.079Z",
+                                       "__v":  0
+                                   },
+                                   {
+                                       "_id":  "6a956a005ed5257cc6c08d1c",
+                                       "num":  "03",
+                                       "title":  "SAAS \u0026 DASHBOARD DESIGN",
+                                       "desc":  "Designing structured SaaS and dashboard interfaces that simplify complex information and workflows.",
+                                       "cardDesc":  "Designing scalable, data-rich interfaces that organize complex workflows into clear and efficient user experiences.",
+                                       "createdAt":  "2026-08-31T11:48:16.853Z",
+                                       "updatedAt":  "2026-08-31T11:48:16.853Z",
+                                       "__v":  0
+                                   },
+                                   {
+                                       "_id":  "6a956a2e5ed5257cc6c08d20",
+                                       "num":  "04",
+                                       "title":  "UX PROCESS: WIREFRAMES \u0026 USER FLOWS",
+                                       "desc":  "Turning requirements into clear user flows, wireframes, and structured interface experiences.",
+                                       "cardDesc":  "Transforming complex requirements into logical user flows and wireframes that create clear, intuitive journeys",
+                                       "createdAt":  "2026-08-31T11:49:02.866Z",
+                                       "updatedAt":  "2026-08-31T11:49:02.866Z",
+                                       "__v":  0
+                                   }
+                               ],
+                     "Count":  4
+                 }
+}

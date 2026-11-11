@@ -1,0 +1,12 @@
+{
+  "name": "rakesh-portfolio",
+  "private": true,
+  "workspaces": ["website", "admin"],
+  "scripts": {
+    "dev:website": "npm run dev -w website",
+    "dev:admin": "npm run dev -w admin",
+    "build": "npm run build --workspaces",
+    "build:website": "npm run build -w website",
+    "build:admin": "npm run build -w admin"
+  }
+}
