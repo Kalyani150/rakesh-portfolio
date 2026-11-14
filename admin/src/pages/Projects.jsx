@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { listProjects, createProject, updateProject, removeProject } from "../services/projects";
 import { useToast } from "../components/Toast.jsx";
+import CaseStudyFields, { caseDefaults } from "../components/CaseStudyFields.jsx";
 import { ConfirmButton, ImagePreview, RowList } from "../components/Fields.jsx";
 import { getContent, saveContent } from "../services/content";
 import legacyProjects from "../data/legacyProjects.json";
 
 let autoImportStarted = false;
 
-const BLANK = { title: "", category: "", description: "", imageUrl: "", link: "", role: "", year: "", tools: "", longDescription: "", images: [], order: 0 };
+const BLANK = { title: "", category: "", description: "", imageUrl: "", link: "", role: "", year: "", tools: "", longDescription: "", images: [], order: 0, ...caseDefaults() };
 const isUrl = (v) => !v || /^https?:\/\//i.test(v.trim());
 
 function validate(f) {
@@ -103,6 +104,7 @@ export default function Projects() {
       tools: Array.isArray(p.tools) ? p.tools.join(", ") : p.tools || "",
       longDescription: p.longDescription || "",
       images: Array.isArray(p.images) ? p.images : [],
+      ...caseDefaults(p),
     };
     setEditingId(p.id); setForm(f); setBase(f); setErrors({});
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -273,6 +275,7 @@ export default function Projects() {
               </>
             )} />
           {err("images")}
+          <CaseStudyFields form={form} set={set} />
           <div className="field">
             <label htmlFor="link">Project link</label>
             <input id="link" placeholder="https://…" value={form.link}
