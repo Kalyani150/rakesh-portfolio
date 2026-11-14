@@ -40,6 +40,17 @@ const SOCIALS = [
       <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM10 9.5h3.8v1.6h.1c.5-1 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z" /></svg>
     ),
   },
+  {
+    // simplified "Bē" mark drawn with strokes, to match the outlined Instagram icon
+    name: "Behance",
+    icon: (
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M2 6v12h5.8a3 3 0 0 0 0-6H2m0 0h5a2.9 2.9 0 0 0 0-6H2" />
+        <path d="M14.5 6.2h6" />
+        <path d="M15 14.4h7a3.5 3.5 0 1 0-1.1 2.6" />
+      </svg>
+    ),
+  },
 ];
 
 // Black footer laid out like the reference: logo + name, email, links on the right,
