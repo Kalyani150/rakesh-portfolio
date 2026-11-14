@@ -225,14 +225,18 @@ export default function Home() {
       const procTl = gsap
         .timeline({
           defaults: { ease: "none" },
-          scrollTrigger: { trigger: ".process", start: "top top", end: "+=360%", pin: ".process-stage", scrub: 0.6 },
+          scrollTrigger: { trigger: ".process", start: "top top", end: "+=420%", pin: ".process-stage", scrub: 0.6, invalidateOnRefresh: true },
         })
+        // beige card rises with the methodology text, "Key phases" waiting at the bottom
         .to(".process-card", { yPercent: 0, duration: 1 }, 0)
-        .to(".process-card", { backgroundColor: "#000", color: "#fff", duration: 1.2 }, 1.2);
+        // then it turns black, the text above fades and slides away, "Key phases" rises to the top
+        .to(".process-card", { backgroundColor: "#111", color: "#fff", duration: 1.2 }, 1.8)
+        .to(".pm-inner", { y: () => -document.querySelector(".pk-head").offsetTop, duration: 1.2 }, 1.8)
+        .to(".pm-top", { opacity: 0.2, duration: 1.2 }, 1.8);
       gsap.utils.toArray(".pk-card").forEach((c, i) => {
         procTl
-          .to(c, { opacity: 1, duration: 0.5 }, 2.2 + i * 0.8)
-          .fromTo(c.querySelector(".pk-dot"), { scale: 0.2 }, { scale: 1, duration: 0.5, ease: "back.out(2)" }, 2.2 + i * 0.8);
+          .to(c, { opacity: 1, duration: 0.5 }, 3.2 + i * 0.7)
+          .fromTo(c.querySelector(".pk-dot"), { scale: 0.2 }, { scale: 1, duration: 0.5, ease: "back.out(2)" }, 3.2 + i * 0.7);
       });
       procTl.to({}, { duration: 0.8 });
       // ---- round lime badge that follows the page (Airbag): appears after the hero, gone at the methodology ----
@@ -381,7 +385,6 @@ export default function Home() {
         })}
         <div className="float-sticky">
           <div className="float-copy">
-            <h2>From problem to solution</h2>
             <Link className="lime-btn" to="/projects">Works</Link>
           </div>
         </div>
@@ -390,30 +393,37 @@ export default function Home() {
       {/* 8 · key phases (staggered boxes with icons) */}
       <section className="process">
         <div className="process-stage">
-          <div className="method-copy">
-            <span className="side-label dark"><i /> My methodology</span>
-            <p>
-              Every project starts with understanding the problem, the users and the goals. Before designing, I explore the requirements and organise the experience.
-            </p>
-            <p>
-              I turn ideas into structured user flows, wireframes and high-fidelity interfaces, refining each detail through feedback and iteration.
-            </p>
-          </div>
           <div className="process-card">
-            <div className="pk-head">
-              <h2>Key phases</h2>
-              <Link className="pk-more" to="/services">
-                <span>Learn more about my design process</span>
-                <i aria-hidden="true">→</i>
-              </Link>
-            </div>
-            <div className="pk-grid">
-              {PHASES.map(([n, t], i) => (
-                <div key={n} className={"pk-card pk-" + (i + 1)}>
-                  <PhaseIcon i={i} />
-                  <span className="pk-title">{t}</span>
+            <div className="pm-inner">
+              <div className="pm-top">
+                <h2 className="pm-title">From problem to solution</h2>
+                <div className="pm-row">
+                  <div className="pm-text">
+                    <p>
+                      Every project starts with understanding the problem, the users and the goals. Before designing, I explore the requirements and organise the experience.
+                    </p>
+                    <p>
+                      I turn ideas into structured user flows, wireframes and high-fidelity interfaces, refining each detail through feedback and iteration.
+                    </p>
+                  </div>
+                  <span className="side-label pm-label"><i /> My methodology</span>
                 </div>
-              ))}
+              </div>
+              <div className="pk-head">
+                <h2>Key phases</h2>
+                <Link className="pk-more" to="/services">
+                  <span>Learn more about my design process</span>
+                  <i aria-hidden="true">→</i>
+                </Link>
+              </div>
+              <div className="pk-grid">
+                {PHASES.map(([n, t], i) => (
+                  <div key={n} className={"pk-card pk-" + (i + 1)}>
+                    <PhaseIcon i={i} />
+                    <span className="pk-title">{t}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

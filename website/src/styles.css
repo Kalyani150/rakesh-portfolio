@@ -1279,12 +1279,25 @@ a.float-item:hover .float-name { opacity: 1; }
 .float-copy h2 { background: #fff; padding: .2em .55em; border-radius: 24px; font-size: clamp(28px, 4vw, 60px); font-weight: 600; }
 .float-copy .side-label { background: #fff; padding: 6px 14px; border-radius: 999px; }
 /* methodology text sits behind the key-phases card while it rises, so the pin is never blank */
-.method-copy { position: absolute; inset: 0; display: grid; align-content: center; justify-items: start; gap: 24px; padding: 0 6vw 12vh; color: #000; }
-.method-copy p { margin: 0; max-width: 30em; font-size: clamp(18px, 1.9vw, 30px); line-height: 1.2; }
-.process-card { z-index: 1; }
 .cta-kicker { font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
 .cta-mail { font-size: clamp(18px, 1.6vw, 24px); text-decoration: underline; text-underline-offset: 4px; }
 
 /* PDF copy: longer lead paragraph on the "ground I know" face */
 .about-face h2.about-lead { font-size: clamp(22px, 2.4vw, 38px); line-height: 1.12; font-weight: 500; max-width: 24em; }
 .about-face h2.about-lead + p { margin-top: 3vh; font-size: clamp(18px, 1.8vw, 28px); }
+
+/* ---- Methodology + Key phases: one card, like the reference ---- */
+.process-card { overflow: hidden; display: block; }
+.pm-inner { position: relative; display: flex; flex-direction: column; gap: 5vh; }
+.pm-top { min-height: 52vh; display: grid; align-content: start; gap: 5vh; padding-left: clamp(0px, 6vw, 100px); }
+.pm-title { margin: 0; font-size: clamp(32px, 4vw, 64px); font-weight: 600; line-height: 1; }
+.pm-row { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 4vw; align-items: start; }
+.pm-text { display: grid; gap: 2.4vh; max-width: 30em; }
+.pm-text p { margin: 0; font-size: clamp(16px, 1.45vw, 23px); line-height: 1.22; }
+.pm-label { font-family: inherit; text-transform: none; letter-spacing: 0; font-size: clamp(14px, 1.1vw, 17px); margin-top: .35em; }
+.process-card .pk-head h2 { font-size: clamp(30px, 3.4vw, 52px); font-weight: 600; }
+.pk-more { color: inherit; }
+.pk-card { background: transparent; }
+.pk-grid { margin-top: 4vh; }
+.process-card .pk-head { padding-left: clamp(0px, 6vw, 100px); }
+.process-card .pm-title { font-family: "Archivo", "Inter Tight", sans-serif; font-weight: 650; letter-spacing: -0.01em; }
