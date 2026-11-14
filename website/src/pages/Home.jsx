@@ -149,6 +149,7 @@ export default function Home() {
         .to(".intro-panel", { xPercent: 0, rotationY: 0, duration: 1 }, 0)
         .to(".intro-hero", { opacity: 0.12, duration: 1 }, 0)
         .to(".intro-stage", { backgroundColor: PAPER, duration: 0.001 }, 1)
+        .to(".corr", { autoAlpha: 0, duration: 0.5 }, 1)
         .fromTo(".panel-copy", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, 1)
         .to(".intro-panel", { clipPath: "inset(6vh 5vw 6vh 5vw round 28px)", duration: 1 }, 1.7)
         .to(".device", { autoAlpha: 1, duration: 0.4 }, 2.4)

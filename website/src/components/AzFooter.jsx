@@ -47,16 +47,14 @@ export default function AzFooter() {
           <p>{PROFILE.location}</p>
           <p>{PROFILE.phone}</p>
         </div>
-        <div className="azf-col">
-          <span className="azf-h">Elsewhere</span>
-          {PROFILE.socials.length ? (
-            PROFILE.socials.map((s) => (
+        {PROFILE.socials.length > 0 && (
+          <div className="azf-col">
+            <span className="azf-h">Elsewhere</span>
+            {PROFILE.socials.map((s) => (
               <a key={s.label} href={s.href} target="_blank" rel="noreferrer">{s.label} ↗</a>
-            ))
-          ) : (
-            <p className="azf-dim">Social links coming soon.</p>
-          )}
-        </div>
+            ))}
+          </div>
+        )}
         <div className="azf-col azf-end">
           <button type="button" className="azf-top" onClick={toTop}>Back to top <i>↑</i></button>
         </div>

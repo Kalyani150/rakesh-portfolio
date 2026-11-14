@@ -218,7 +218,8 @@ h1, h2, h3 { font-family: var(--display); }
 .float-item:nth-child(3n) { background: var(--accent); }
 .float-item:nth-child(3n+1) { background: var(--coral); color: var(--bg); }
 .float-item img { width: 100%; height: 100%; object-fit: cover; }
-.float-sticky { position: absolute; inset: 0; z-index: 1; }
+.float-sticky { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.float-sticky .lime-btn { pointer-events: auto; }
 .float-copy {
   position: sticky; top: 0; height: 100vh; display: grid; place-content: center; justify-items: center;
   gap: 32px; text-align: center; padding: 0 8vw; opacity: 0;
@@ -1054,7 +1055,7 @@ body { font-size: 15px; }
 .azf-btn:hover { transform: translateY(-3px); gap: 18px; }
 .azf-btn i { font-style: normal; }
 .azf-rule { display: block; height: 1px; background: rgba(243,239,231,.25); margin: clamp(40px, 8vh, 90px) 0 36px; }
-.azf-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.azf-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; padding-bottom: clamp(36px, 6vh, 64px); }
 .azf-col { display: grid; gap: 10px; align-content: start; font-size: 16px; }
 .azf-col a { width: fit-content; position: relative; transition: color .2s ease; }
 .azf-col a::after { content: ""; position: absolute; left: 0; bottom: -2px; height: 1px; width: 100%; background: var(--lime); transform: scaleX(0); transform-origin: left; transition: transform .3s ease; }
@@ -1063,7 +1064,7 @@ body { font-size: 15px; }
 .azf-col p { margin: 0; color: #c9c4ba; }
 .azf-dim { opacity: .6; }
 .azf-h { font-size: 13px; color: #86a39b; margin-bottom: 8px; }
-.azf-end { justify-items: end; }
+.azf-end { justify-items: end; grid-column: 4; }
 .azf-top { background: none; border: 1px solid rgba(243,239,231,.35); color: inherit; border-radius: 999px; padding: 10px 18px; font: inherit; font-size: 15px; cursor: pointer; transition: background .25s ease, color .25s ease; }
 .azf-top:hover { background: #f3efe7; color: #06130f; }
 .azf-top i { font-style: normal; margin-left: 6px; }
