@@ -1462,6 +1462,9 @@ a.float-item:hover .float-name { opacity: 1; }
 .svcpage .az-links a.on, .svcpage .az-links a:hover, .az .az-links a.on, .az .az-links a:hover { opacity: 1; color: #fff; }
 .svcpage .az-logo b, .az .az-logo b { color: #fff; }
 .svcpage .az-burger i, .az .az-burger i { background: var(--accent); }
-.az .az-nav { mix-blend-mode: normal; }
-.az .az-links { mix-blend-mode: difference; }
-.svcpage .az-pill, .az .az-pill { background: #000; color: #fff !important; }
+.svcpage .az-pill { background: #000; color: #fff !important; }
+
+/* Services sits on a white page: blend the whole bar so logo + links read as dark on white and light on the red card */
+.az .az-nav { mix-blend-mode: difference !important; }
+.az .az-pill { background: #fff; color: #000 !important; }
+.az .az-burger i { background: #000; }
