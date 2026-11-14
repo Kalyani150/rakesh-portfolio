@@ -1,7 +1,6 @@
 import { useLayoutEffect, useRef } from "react";
-import { Link } from "react-router-dom";
 import AzFooter from "../components/AzFooter.jsx";
-import { Logo } from "../components/AzChrome.jsx";
+import { AzNav } from "../components/AzChrome.jsx";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
@@ -151,16 +150,7 @@ export default function About() {
 
   return (
     <div ref={root} className={"home svcpage about" + (reduceMotion ? " reduce" : "")}>
-      <header className="nav">
-        <Logo />
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/services">Services</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-      </header>
+      <AzNav current="/about" />
 
       {/* hero: dark, big type, spinning badge */}
       <section className="ab-hero">

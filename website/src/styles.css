@@ -1447,3 +1447,21 @@ a.float-item:hover .float-name { opacity: 1; }
 .pj-list { margin: 0; padding-left: 20px; display: grid; gap: 12px; max-width: 70ch; line-height: 1.6; opacity: .85; }
 .pj-closing { font-size: clamp(22px, 3.4vw, 40px); font-weight: 650; line-height: 1.15; max-width: 22ch; margin: 0 0 48px; }
 @media (max-width: 760px) { .pj-two { grid-template-columns: 1fr; gap: 28px; } }
+
+/* navbar without the pill / border: transparent, text blends with whatever is behind it */
+.nav, .az-nav {
+  background: none !important; border: 0 !important; border-radius: 0 !important;
+  box-shadow: none !important; outline: 0 !important;
+  backdrop-filter: none !important; -webkit-backdrop-filter: none !important;
+}
+.nav { inset: 0 0 auto 0 !important; padding: 20px clamp(18px, 4vw, 40px) !important; mix-blend-mode: difference !important; }
+
+/* same navbar look on every page as on Home */
+.svcpage .az-logo, .svcpage .az-links a, .az .az-logo, .az .az-links a { color: #fff; }
+.svcpage .az-links a, .az .az-links a { opacity: .8; }
+.svcpage .az-links a.on, .svcpage .az-links a:hover, .az .az-links a.on, .az .az-links a:hover { opacity: 1; color: #fff; }
+.svcpage .az-logo b, .az .az-logo b { color: #fff; }
+.svcpage .az-burger i, .az .az-burger i { background: var(--accent); }
+.az .az-nav { mix-blend-mode: normal; }
+.az .az-links { mix-blend-mode: difference; }
+.svcpage .az-pill, .az .az-pill { background: #000; color: #fff !important; }
