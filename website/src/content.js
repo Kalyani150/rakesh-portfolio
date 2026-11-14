@@ -8,11 +8,11 @@ export const PROFILE = {
   phone: "+91 96406 57114",
   // Placeholders on the old site — put real URLs here and they'll appear automatically.
   socials: [
-    // The footer shows Twitter, Instagram, LinkedIn and Behance icons. Add real URLs here (label must match) and they become links:
-    // { label: "Twitter", href: "https://twitter.com/..." },
-    // { label: "Instagram", href: "https://instagram.com/..." },
-    // { label: "LinkedIn", href: "https://linkedin.com/in/..." },
-    // { label: "Behance", href: "https://behance.net/..." },
+    // The footer icons (Twitter, Instagram, LinkedIn, Behance) link to these. The label must match the icon name.
+    { label: "Twitter", href: "https://x.com/helloimRAKI" },
+    { label: "Instagram", href: "https://www.instagram.com/" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/rakesh-parvathneni-3091b0333/" },
+    { label: "Behance", href: "https://www.behance.net/rakeshparvath26" },
   ],
 };
 
