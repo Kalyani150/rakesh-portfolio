@@ -5,7 +5,110 @@
     "description": "Designing a clear and efficient SaaS experience for extracting, managing, and organizing business data through streamlined workflows and intuitive interfaces.",
     "imageUrl": "https://res.cloudinary.com/nkqeebua/image/upload/v1789988879/portfolio_projects/mdvve7czb3n31x4gd10y.png",
     "link": "",
-    "order": 1
+    "order": 1,
+    "subtitle": "SAAS PRODUCT DESIGN",
+    "role": "UI/UX DESIGNER",
+    "year": "2025",
+    "platform": "Web Application",
+    "tools": "Figma, Photoshop & Illustrator",
+    "scope": "UX Research, UI/UX Design, Design System",
+    "client": "KBK Business solutions",
+    "longDescription": "Online DB Extractor is a SaaS platform designed to help users discover, extract, manage, and organize business data through a structured digital workflow. The product brings complex extraction tasks into a more accessible interface, helping users move from data selection to processing and results with greater clarity.\n\nThe experience combines authentication, extraction workflows, data tables, dashboard views, account management, subscription features, and supporting administrative tools into one connected SaaS ecosystem.",
+    "images": [
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1788346857/portfolio_projects/slq3qxn424iet32qrwho.jpg",
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1788346869/portfolio_projects/qrh0umkvcnb4nnafj8q7.jpg",
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1788346873/portfolio_projects/ehtoy6vchk8or6hnricf.png",
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1788346963/portfolio_projects/ejqmpn7ymxa7ba8h0vqo.jpg",
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1788346970/portfolio_projects/hhgy8cq1h2iispbxtc8s.jpg",
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1788347051/portfolio_projects/aafgyenxwaodj3d3rwmc.jpg",
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1788347109/portfolio_projects/to3mhbsmez10epthcopj.jpg"
+    ],
+    "experienceTitle": "A MORE STRUCTURED SAAS EXPERIENCE",
+    "achievements": [
+      "Increased user onboarding completion rate by 45% through a simplified step-by-step extraction setup process.",
+      "Structured complex extraction tasks into clearer steps and interface states so users can understand what to do next.",
+      "Created reusable visual patterns across dashboards, tables, forms, navigation, filters, and other product modules.",
+      "Established a flexible interface structure that can support additional product features and workflows as the platform grows."
+    ],
+    "ecosystem": [
+      {
+        "title": "USER DASHBOARD",
+        "description": "A centralized workspace where users can manage extraction activities, review data, monitor workflows, and access important account information."
+      },
+      {
+        "title": "DATA EXTRACTION",
+        "description": "A structured workflow that guides users through selecting, processing, and reviewing extracted business data."
+      },
+      {
+        "title": "ADMIN PLATFORM",
+        "description": "An administrative environment for managing users, data, platform activity, and operational workflows across the product."
+      }
+    ],
+    "challenge": {
+      "title": "THE CHALLENGE",
+      "paragraphs": [
+        "The product involved complex data extraction workflows, multiple interface states, large amounts of structured information, and different user actions. The challenge was to organize these workflows into a clear experience without overwhelming users with technical complexity."
+      ]
+    },
+    "approach": {
+      "title": "THE APPROACH",
+      "paragraphs": [
+        "I focused on simplifying the overall information architecture, organizing the extraction workflow into clear steps, establishing consistent UI patterns, and creating reusable components for tables, forms, filters, navigation, and dashboard modules."
+      ]
+    },
+    "strategicOverview": {
+      "label": "STRATEGIC OVERVIEW",
+      "title": "A CLEARER DATA EXTRACTION EXPERIENCE",
+      "goal": {
+        "title": "CLARITY",
+        "description": "Make complex data extraction workflows easier to understand and navigate."
+      },
+      "process": {
+        "title": "STRUCTURE",
+        "description": "I focused on simplifying the user\njourney by categorizing workflows\ninto clear, manageable steps\nfrom source connection to data\nreview."
+      },
+      "impact": {
+        "title": "THE IMPACT",
+        "description": "The result is a structured platform\nthat balances high information\ndensity with visual clarity, allowing\ndata analysts to manage large\ndatasets without cognitive\noverload."
+      }
+    },
+    "challengeSection": {
+      "label": "THE CHALLENGE",
+      "title": "HOW DO YOU MAKE A TECHNICALLY COMPLEX DATA WORKFLOW FEEL SIMPLE?",
+      "cards": [
+        {
+          "title": "COMPLEX WORKFLOWS",
+          "description": "The product required users to move through multiple extraction steps, manage data, review results, and complete different actions without losing context."
+        },
+        {
+          "title": "INFORMATION DENSITY",
+          "description": "Large datasets, tables, filters, and multiple information states needed to remain readable and organized without overwhelming the user."
+        },
+        {
+          "title": "PRODUCT CLARITY",
+          "description": "Different product areas needed to feel connected so users could understand where they were, what they could do, and what action to take next."
+        }
+      ]
+    },
+    "outcome": {
+      "title": "THE OUTCOME",
+      "description": "The redesigned Online DB Extractor experience brings complex data workflows into a more structured and approachable SaaS interface. The system connects dashboards, extraction workflows, data management, and supporting product features through a consistent visual language.",
+      "cards": [
+        {
+          "title": "CLEARER NAVIGATION",
+          "description": "Organized product areas and workflows make it easier for users to understand where they are and move between key tasks."
+        },
+        {
+          "title": "CONSISTENT UI",
+          "description": "Reusable interface patterns create a consistent experience across dashboards, tables, forms, and product workflows."
+        },
+        {
+          "title": "SCALABLE EXPERIENCE",
+          "description": "The structured design approach provides a flexible foundation for expanding the product with additional features and workflows."
+        }
+      ]
+    },
+    "footerTitle": "DESIGNED TO MAKE COMPLEX DATA WORKFLOWS FEEL SIMPLE."
   },
   {
     "title": "BEAUTY BAY ACADEMY",
@@ -69,7 +172,10 @@
     "description": "",
     "imageUrl": "https://res.cloudinary.com/nkqeebua/image/upload/v1789911826/portfolio_projects/nmokrwq7usyyazj8tjva.jpg",
     "link": "",
-    "order": 9
+    "order": 9,
+    "images": [
+      "https://res.cloudinary.com/nkqeebua/image/upload/v1793097476/portfolio_projects/jvvb8xajjc48f86jlqwd.png"
+    ]
   },
   {
     "title": "MANSEE NGO",

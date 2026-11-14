@@ -40,18 +40,30 @@ export async function removeProject(id) {
 }
 
 // Keep the shape consistent and coerce "order" to a number.
+// Case-study sections from the old site. The form doesn't edit these, but they're passed
+// through when present (import / sync) and left untouched in Firestore otherwise.
+export const CASE_KEYS = [
+  "subtitle", "platform", "scope", "client", "experienceTitle", "footerTitle",
+  "achievements", "ecosystem", "challenge", "approach", "strategicOverview",
+  "challengeSection", "outcome",
+];
+
+const str = (v) => (Array.isArray(v) ? v.join(", ") : v || "").toString().trim();
+
 function normalize(data) {
-  return {
-    title: (data.title || "").trim(),
-    category: (data.category || "").trim(),
-    description: (data.description || "").trim(),
-    imageUrl: (data.imageUrl || "").trim(),
-    link: (data.link || "").trim(),
-    role: (data.role || "").trim(),
-    year: (data.year || "").trim(),
-    tools: (data.tools || "").trim(),
-    longDescription: (data.longDescription || "").trim(),
-    images: (Array.isArray(data.images) ? data.images : []).map((u) => (u || "").trim()).filter(Boolean),
+  const out = {
+    title: str(data.title),
+    category: str(data.category),
+    description: str(data.description),
+    imageUrl: str(data.imageUrl),
+    link: str(data.link),
+    role: str(data.role),
+    year: str(data.year),
+    tools: str(data.tools),
+    longDescription: str(data.longDescription),
+    images: (Array.isArray(data.images) ? data.images : []).map(str).filter(Boolean),
     order: Number(data.order) || 0,
   };
+  for (const k of CASE_KEYS) if (data[k] !== undefined) out[k] = data[k];
+  return out;
 }

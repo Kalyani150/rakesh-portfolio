@@ -155,11 +155,30 @@ export default function Projects() {
     return legacyProjects.filter((p) => !have.has(p.title.toLowerCase()));
   }, [projects]);
 
+  // Projects already here whose details (role, tools, images, case study…) are still empty
+  // but the old site has them. Only empty fields are filled; your edits are never overwritten.
+  const isEmpty = (v) => v == null || v === "" || (Array.isArray(v) && v.length === 0);
+  const syncPlan = useMemo(() => {
+    const byTitle = new Map(legacyProjects.map((p) => [p.title.toLowerCase(), p]));
+    return projects.flatMap((p) => {
+      const legacy = byTitle.get((p.title || "").trim().toLowerCase());
+      if (!legacy) return [];
+      const fill = {};
+      for (const [k, v] of Object.entries(legacy)) {
+        if (k === "order" || k === "title") continue;
+        if (!isEmpty(v) && isEmpty(p[k])) fill[k] = v;
+      }
+      return Object.keys(fill).length ? [{ project: p, fill }] : [];
+    });
+  }, [projects]);
+
   async function importLegacy() {
     setImporting(true);
     try {
       for (const p of missingLegacy) await createProject(p);
-      toast(`Imported ${missingLegacy.length} project${missingLegacy.length === 1 ? "" : "s"}.`);
+      for (const { project, fill } of syncPlan) await updateProject(project.id, { ...project, ...fill });
+      const n = missingLegacy.length, s = syncPlan.length;
+      toast([n && `Imported ${n} project${n === 1 ? "" : "s"}`, s && `filled details on ${s}`].filter(Boolean).join(", ") + ".");
       await refresh();
     } catch (err) {
       console.error(err);
@@ -280,14 +299,16 @@ export default function Projects() {
           <input type="search" aria-label="Search projects" placeholder="Search projects…" value={q}
             onChange={(e) => setQ(e.target.value)} className="search" />
         </div>
-        {!loading && missingLegacy.length > 0 && (
+        {!loading && (missingLegacy.length > 0 || syncPlan.length > 0) && (
           <div className="import-bar">
             <span className="muted">
-              {missingLegacy.length} project{missingLegacy.length === 1 ? "" : "s"} from your old
-              portfolio site {missingLegacy.length === 1 ? "isn't" : "aren't"} here yet.
+              {missingLegacy.length > 0 &&
+                `${missingLegacy.length} project${missingLegacy.length === 1 ? "" : "s"} from your old portfolio site ${missingLegacy.length === 1 ? "isn't" : "aren't"} here yet. `}
+              {syncPlan.length > 0 &&
+                `${syncPlan.length} existing project${syncPlan.length === 1 ? " has" : "s have"} details on the old site that are still empty here.`}
             </span>
             <button className="btn" type="button" onClick={importLegacy} disabled={importing}>
-              {importing ? "Importing…" : `Import ${missingLegacy.length} from old site`}
+              {importing ? "Importing…" : "Import details from old site"}
             </button>
           </div>
         )}
