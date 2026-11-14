@@ -12,7 +12,7 @@ import { AzNav, Loader, PixelTitle } from "../components/AzChrome.jsx";
 gsap.registerPlugin(ScrollTrigger);
 
 const EMAIL = "rakeshparvathneni26@gmail.com";
-const PAPER = "#F3EFE7";
+const PAPER = "#ffffff";
 
 const SERVICES = [
   "UI/UX design",
@@ -97,7 +97,7 @@ export default function Home() {
       gsap
         .timeline({ delay: 0.2 })
         .fromTo(".az-cube", { scale: 0.3, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.9, ease: "back.out(1.6)" })
-        .to(".az-loader", { backgroundColor: "#0f9d7a", duration: 1.2, ease: "none" }, 0.9)
+        .to(".az-loader", { backgroundColor: "#b91b4c", duration: 1.2, ease: "none" }, 0.9)
         .to(".az-cube", { scale: 0.2, opacity: 0, duration: 0.6, ease: "power3.in" }, 2.3)
         .to(".az-loader", { yPercent: -100, duration: 1, ease: "power4.inOut" }, 2.7)
         .to(".corr i", { opacity: 1, duration: 1.2, stagger: 0.15, ease: "power2.out" }, 3.0)

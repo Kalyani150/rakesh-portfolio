@@ -1228,3 +1228,40 @@ a.float-item:hover .float-name { opacity: 1; }
   .pk-more span { display: none; }
 }
 .pk-grid { grid-auto-rows: clamp(88px, 17.5vh, 140px); }
+
+/* ================= AIRBAG LOOK (home page palette) =================
+   Palette taken from airbagstudio.it: crimson #b91b4c, dark crimson #841a3b,
+   orange #ff6620, lime #bdff00, beige #eeece7, black. Scoped to .home only. */
+.home {
+  --accent: #b91b4c;
+  --coral: #ff6620;
+  --paper: #eeece7;
+  --grey: #eeece7;
+  --lime: #bdff00;
+  --bg: #000;
+}
+.az-loader { background: #ff6620; }
+.corr-ceil, .corr-floor { background: #841a3b; }
+.corr-wall { background: linear-gradient(90deg, #9c1844, #b91b4c); opacity: 1; }
+.rise-panel, .float-field, .process, .people { background: #fff; }
+.people .ppl-title { color: var(--accent); }
+.people .ppl-stat { border-top-color: rgba(0,0,0,.25); }
+.cta { background: #fff; }
+.az-pill { background: #000; }
+.az-foot, .azf { background: #000; }
+.azf-h { color: #ff6620; }
+.azf-legal { border-top-color: rgba(255,255,255,.2); }
+.pk-dot { background: #bdff00; }
+.pk-more i { border-color: #ff6620; }
+.home-eye { background: #bdff00; }
+
+/* lime pill buttons with a white arrow circle, like the reference */
+.home .lime-btn {
+  display: inline-flex; align-items: center; gap: 16px; padding: 8px 8px 8px 24px; color: #000;
+}
+.home .lime-btn::after {
+  content: "→"; display: grid; place-items: center; width: 2.4em; height: 2.4em; border-radius: 50%;
+  background: #fff; font-size: .9em; flex: none; transition: transform .3s ease;
+}
+.home .lime-btn:hover::after { transform: translateX(4px); }
+.home .lime-btn.big { padding: 10px 10px 10px 34px; }
