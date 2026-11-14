@@ -288,8 +288,8 @@ export default function Home() {
             <h1 className="sr-only">Rakesh Parvathneni</h1>
             <PixelTitle lines={["Rakesh", "Parvathneni"]} instant={reduceMotion} />
             <div className="hero-tag">
-              <p className="tag-1">UI/UX design is the last mile.</p>
-              <p className="tag-2">The rest of the journey, we design together.</p>
+              <p className="tag-1">UI/UX Designer</p>
+              <p className="tag-2">Meaningful websites, products and experiences.</p>
             </div>
           </div>
 
@@ -319,12 +319,11 @@ export default function Home() {
 
       {/* 5 · services */}
       <section className="services">
-        <span className="side-label"><i /> Services</span>
+        <span className="side-label"><i /> My areas of focus</span>
         <Words as="p" className="reveal big-p">
-          I design products from the first sketch to the final handoff, working closely with
-          the people who build them so what ships matches what was imagined.
+          I work across different digital experiences, bringing ideas to life through thoughtful design. From websites to dashboards, I focus on making every interaction simple, clear and useful.
         </Words>
-        <Words as="p" className="reveal lead-in">The main things I work on are</Words>
+        <Words as="p" className="reveal lead-in">My main areas of design are</Words>
         <ul className="svc-list">
           {SERVICES.map((s) => (
             <li key={s} className="svc-item">
@@ -333,8 +332,7 @@ export default function Home() {
             </li>
           ))}
         </ul>
-        <Words as="p" className="reveal lead-in">but I also work on plenty of other kinds of products…</Words>
-        <Link className="lime-btn svc-cta" to="/services">Discover what I can do for you</Link>
+        <Link className="lime-btn svc-cta" to="/services">Discover what I can design for you</Link>
       </section>
 
       {/* 6 · angled panel reveal */}
@@ -348,16 +346,12 @@ export default function Home() {
 
       {/* design principles */}
       <section className="craft">
-        <span className="side-label dark"><i /> Design</span>
-        <Words as="h2" className="reveal craft-title">Useful, simple, ergonomic interfaces</Words>
+        <Words as="h2" className="reveal craft-title">Simple, useful and intuitive experiences.</Words>
         <Words as="p" className="reveal craft-p">
-          Design is the heart of my work: understanding a complex need and giving it the right shape.
+          Design is at the heart of my work. I focus on understanding user needs and transforming complex ideas into clear, meaningful interfaces.
         </Words>
         <Words as="p" className="reveal craft-p">
-          I practise it as co-creation: workshops, short cycles and working prototypes used as tools for dialogue.
-        </Words>
-        <Words as="p" className="reveal craft-p strong">
-          I design complex products that work as simply as possible.
+          I believe great experiences come from thoughtful decisions, continuous learning and attention to detail.
         </Words>
       </section>
 
@@ -387,7 +381,6 @@ export default function Home() {
         })}
         <div className="float-sticky">
           <div className="float-copy">
-            <span className="side-label dark"><i /> My works</span>
             <h2>From problem to solution</h2>
             <Link className="lime-btn" to="/projects">Works</Link>
           </div>
@@ -398,20 +391,19 @@ export default function Home() {
       <section className="process">
         <div className="process-stage">
           <div className="method-copy">
-            <span className="side-label dark"><i /> Methodology</span>
+            <span className="side-label dark"><i /> My methodology</span>
             <p>
-              Every project starts with understanding the context: the users, the data, the constraints.
-              Only then do I design, and only then do I hand off to be built.
+              Every project starts with understanding the problem, the users and the goals. Before designing, I explore the requirements and organise the experience.
             </p>
             <p>
-              Short cycles and working prototypes keep decisions early and the final build true to the design.
+              I turn ideas into structured user flows, wireframes and high-fidelity interfaces, refining each detail through feedback and iteration.
             </p>
           </div>
           <div className="process-card">
             <div className="pk-head">
               <h2>Key phases</h2>
               <Link className="pk-more" to="/services">
-                <span>Learn more about my method</span>
+                <span>Learn more about my design process</span>
                 <i aria-hidden="true">→</i>
               </Link>
             </div>
@@ -428,21 +420,17 @@ export default function Home() {
       </section>
       {/* people, relations and trust */}
       <section className="people">
-        <span className="side-label dark"><i /> About</span>
-        <Words as="h2" className="reveal ppl-title">People, relations and trust</Words>
+        <Words as="h2" className="reveal ppl-title">People, ideas and meaningful experiences.</Words>
         <Words as="p" className="reveal ppl-text">
-          I work side by side with clients and developers, in short cycles and with working prototypes, because the right product is born from conversation, not from handovers.
+          Every project brings a new opportunity to learn, explore and create something meaningful.
         </Words>
-        <div className="ppl-stats">
-          <div className="ppl-stat"><b>01+</b><span>Years of experience</span></div>
-          <div className="ppl-stat"><b>10+</b><span>Happy clients</span></div>
-          <div className="ppl-stat"><b>20+</b><span>Projects delivered</span></div>
-        </div>
+        <Words as="p" className="reveal ppl-text">
+          I enjoy collaborating with teams, understanding different perspectives and turning creative ideas into practical digital experiences.
+        </Words>
         <Link className="lime-btn" to="/about">About me</Link>
       </section>
       {/* 9 · CTA + footer */}
       <section className="cta">
-        <span className="cta-kicker">Got an idea to propose?</span>
         <Words as="h2" className="cta-title">New project, new challenge?</Words>
         <Link className="lime-btn big" to="/contact">Get in touch</Link>
         <a className="cta-mail" href={`mailto:${EMAIL}`}>{EMAIL}</a>
@@ -461,11 +449,11 @@ export default function Home() {
 function PanelCopy() {
   return (
     <div className="panel-copy">
-      <span className="panel-kicker">A product design practice</span>
-      <h2>The interface for your product? I design it and I stand behind it, handoff included.</h2>
+      <span className="panel-kicker">A UI/UX designer</span>
+      <h2>The digital experience you imagine? I design it with purpose and clarity.</h2>
       <p>
-        But first, we work together to find the right product to build.
-        Web, SaaS, dashboards.
+        From the first idea, to the final interface, I focus on creating meaningful
+        websites, products and experiences.
       </p>
     </div>
   );
@@ -474,18 +462,12 @@ function PanelCopy() {
 function AboutFace() {
   return (
     <div className="about-face">
-      <span className="eyebrow">About</span>
-      <h2>The ground I know.</h2>
-      <p>
-        I’m a UI/UX Designer at KBK Business Solutions, designing web interfaces, SaaS
-        dashboards and landing pages. I turn requirements into user flows and wireframes,
-        then into polished, production-ready UI — working closely with developers.
-      </p>
-      <div className="stats">
-        <div><b>01+</b><span>Years</span></div>
-        <div><b>10+</b><span>Clients</span></div>
-        <div><b>20+</b><span>Projects</span></div>
-      </div>
+      <span className="eyebrow">The ground I know</span>
+      <h2 className="about-lead">
+        Since 2025, I’ve been exploring where creativity, technology and user experience meet;
+        designing digital interfaces, websites and SaaS products.
+      </h2>
+      <p>That’s where I believe good design makes a difference.</p>
     </div>
   );
 }
