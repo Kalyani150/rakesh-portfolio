@@ -8,10 +8,10 @@ export const PROFILE = {
   phone: "+91 96406 57114",
   // Placeholders on the old site — put real URLs here and they'll appear automatically.
   socials: [
-    // The footer shows Twitter, Instagram and Facebook icons. Add real URLs here (label must match) and they become links:
+    // The footer shows Twitter, Instagram and LinkedIn icons. Add real URLs here (label must match) and they become links:
     // { label: "Twitter", href: "https://twitter.com/..." },
     // { label: "Instagram", href: "https://instagram.com/..." },
-    // { label: "Facebook", href: "https://facebook.com/..." },
+    // { label: "LinkedIn", href: "https://linkedin.com/in/..." },
   ],
 };
 
