@@ -1157,7 +1157,6 @@ a.float-item:hover .float-name { opacity: 1; }
 .float-copy { top: 40vh; height: 20vh; padding: 0; }
 
 .float-field { height: 150vh; }
-.float-field + .process { margin-top: -30vh; }
 .float-copy { top: 0; height: 100vh; }
 
 
@@ -1275,7 +1274,6 @@ a.float-item:hover .float-name { opacity: 1; }
 .craft .craft-p.strong { font-weight: 600; color: var(--accent); }
 /* floating tiles: shorter field so there is no empty tail; heading sits on a white card over the tiles */
 .float-field { height: 150vh; }
-.float-field + .process { margin-top: -30vh; }
 .float-copy h2 { background: #fff; padding: .2em .55em; border-radius: 24px; font-size: clamp(28px, 4vw, 60px); font-weight: 600; }
 .float-copy .side-label { background: #fff; padding: 6px 14px; border-radius: 999px; }
 /* methodology text sits behind the key-phases card while it rises, so the pin is never blank */
@@ -1301,3 +1299,7 @@ a.float-item:hover .float-name { opacity: 1; }
 .pk-grid { margin-top: 4vh; }
 .process-card .pk-head { padding-left: clamp(0px, 6vw, 100px); }
 .process-card .pm-title { font-family: "Archivo", "Inter Tight", sans-serif; font-weight: 650; letter-spacing: -0.01em; }
+
+/* Works button stays pinned in the middle of the screen while the tiles float past */
+.float-field { height: 240vh; }
+.float-copy { position: sticky; top: 0; height: 100vh; }

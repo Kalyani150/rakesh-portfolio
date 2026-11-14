@@ -215,7 +215,7 @@ export default function Home() {
           opacity: 1,
           y: 0,
           ease: "none",
-          scrollTrigger: { trigger: ".float-field", start: "62% bottom", end: "88% bottom", scrub: true },
+          scrollTrigger: { trigger: ".float-field", start: "top 55%", end: "top top", scrub: true },
         }
       );
 
@@ -363,7 +363,7 @@ export default function Home() {
       <section className="float-field">
         {FLOATS.map((f, i) => {
           const proj = tileProject(i);
-          const style = { top: `${f.top}%`, left: `${f.left}%`, width: `${f.w}vw`, transform: `rotate(${f.rot}deg)` };
+          const style = { top: `${f.top * 1.35}%`, left: `${f.left}%`, width: `${f.w}vw`, transform: `rotate(${f.rot}deg)` };
           return proj ? (
             <Link
               key={i}
