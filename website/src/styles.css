@@ -1157,6 +1157,7 @@ a.float-item:hover .float-name { opacity: 1; }
 .float-copy { top: 40vh; height: 20vh; padding: 0; }
 
 .float-field { height: 150vh; }
+.float-field + .process { margin-top: -30vh; }
 .float-copy { top: 0; height: 100vh; }
 
 
@@ -1265,3 +1266,21 @@ a.float-item:hover .float-name { opacity: 1; }
 }
 .home .lime-btn:hover::after { transform: translateX(4px); }
 .home .lime-btn.big { padding: 10px 10px 10px 34px; }
+
+/* ---- sections added to match the reference's full page ---- */
+.panel-kicker { display: block; font-size: clamp(20px, 2vw, 32px); font-weight: 600; opacity: .55; margin-bottom: 3vh; }
+.craft { background: #fff; color: #000; padding: 18vh 6vw 10vh; display: grid; gap: 28px; justify-items: start; }
+.craft .craft-title { font-size: clamp(34px, 5vw, 80px); font-weight: 600; line-height: 1.02; max-width: 14em; }
+.craft .craft-p { font-size: clamp(18px, 1.9vw, 30px); line-height: 1.2; max-width: 30em; margin: 0; }
+.craft .craft-p.strong { font-weight: 600; color: var(--accent); }
+/* floating tiles: shorter field so there is no empty tail; heading sits on a white card over the tiles */
+.float-field { height: 150vh; }
+.float-field + .process { margin-top: -30vh; }
+.float-copy h2 { background: #fff; padding: .2em .55em; border-radius: 24px; font-size: clamp(28px, 4vw, 60px); font-weight: 600; }
+.float-copy .side-label { background: #fff; padding: 6px 14px; border-radius: 999px; }
+/* methodology text sits behind the key-phases card while it rises, so the pin is never blank */
+.method-copy { position: absolute; inset: 0; display: grid; align-content: center; justify-items: start; gap: 24px; padding: 0 6vw 12vh; color: #000; }
+.method-copy p { margin: 0; max-width: 30em; font-size: clamp(18px, 1.9vw, 30px); line-height: 1.2; }
+.process-card { z-index: 1; }
+.cta-kicker { font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.cta-mail { font-size: clamp(18px, 1.6vw, 24px); text-decoration: underline; text-underline-offset: 4px; }

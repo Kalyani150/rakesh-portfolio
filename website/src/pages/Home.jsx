@@ -333,6 +333,7 @@ export default function Home() {
             </li>
           ))}
         </ul>
+        <Words as="p" className="reveal lead-in">but I also work on plenty of other kinds of products…</Words>
         <Link className="lime-btn svc-cta" to="/services">Discover what I can do for you</Link>
       </section>
 
@@ -343,6 +344,21 @@ export default function Home() {
             <h2 className="rise-copy">A product is beautiful<br />when it works well.</h2>
           </div>
         </div>
+      </section>
+
+      {/* design principles */}
+      <section className="craft">
+        <span className="side-label dark"><i /> Design</span>
+        <Words as="h2" className="reveal craft-title">Useful, simple, ergonomic interfaces</Words>
+        <Words as="p" className="reveal craft-p">
+          Design is the heart of my work: understanding a complex need and giving it the right shape.
+        </Words>
+        <Words as="p" className="reveal craft-p">
+          I practise it as co-creation: workshops, short cycles and working prototypes used as tools for dialogue.
+        </Words>
+        <Words as="p" className="reveal craft-p strong">
+          I design complex products that work as simply as possible.
+        </Words>
       </section>
 
       {/* 7 · floating tiles */}
@@ -371,6 +387,8 @@ export default function Home() {
         })}
         <div className="float-sticky">
           <div className="float-copy">
+            <span className="side-label dark"><i /> My works</span>
+            <h2>From problem to solution</h2>
             <Link className="lime-btn" to="/projects">Works</Link>
           </div>
         </div>
@@ -379,6 +397,16 @@ export default function Home() {
       {/* 8 · key phases (staggered boxes with icons) */}
       <section className="process">
         <div className="process-stage">
+          <div className="method-copy">
+            <span className="side-label dark"><i /> Methodology</span>
+            <p>
+              Every project starts with understanding the context: the users, the data, the constraints.
+              Only then do I design, and only then do I hand off to be built.
+            </p>
+            <p>
+              Short cycles and working prototypes keep decisions early and the final build true to the design.
+            </p>
+          </div>
           <div className="process-card">
             <div className="pk-head">
               <h2>Key phases</h2>
@@ -414,8 +442,10 @@ export default function Home() {
       </section>
       {/* 9 · CTA + footer */}
       <section className="cta">
+        <span className="cta-kicker">Got an idea to propose?</span>
         <Words as="h2" className="cta-title">New project, new challenge?</Words>
         <Link className="lime-btn big" to="/contact">Get in touch</Link>
+        <a className="cta-mail" href={`mailto:${EMAIL}`}>{EMAIL}</a>
         <div className="az-cta-info">
           <span><i>Based in</i>{PROFILE.location}</span>
           <span><i>Phone</i>{PROFILE.phone}</span>
@@ -431,10 +461,11 @@ export default function Home() {
 function PanelCopy() {
   return (
     <div className="panel-copy">
-      <h2>A designer for products people actually enjoy using.</h2>
+      <span className="panel-kicker">A product design practice</span>
+      <h2>The interface for your product? I design it and I stand behind it, handoff included.</h2>
       <p>
-        UI/UX Designer with a year of experience shaping web, SaaS and dashboard
-        experiences — from wireframes to high-fidelity UI.
+        But first, we work together to find the right product to build.
+        Web, SaaS, dashboards.
       </p>
     </div>
   );
