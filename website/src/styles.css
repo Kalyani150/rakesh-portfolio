@@ -1426,3 +1426,9 @@ a.float-item:hover .float-name { opacity: 1; }
   .rf-social { justify-content: flex-start; }
   .rf-links { grid-template-columns: repeat(2, auto); justify-content: start; }
 }
+
+/* footer social icons: white glyphs in a row, like the reference */
+.rf-social { justify-content: flex-start; gap: 28px; align-items: center; }
+.rf-social a { display: grid; place-items: center; width: 20px; height: 20px; color: #fff; transition: color .2s ease, transform .2s ease; }
+.rf-social a:hover { color: #bdff00; transform: translateY(-2px); }
+.rf-social svg { width: 100%; height: 100%; display: block; }
