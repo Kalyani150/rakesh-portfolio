@@ -221,7 +221,7 @@ export default function Home() {
       );
 
       // ---- 8. Key phases: card slides up and turns black, then the six boxes light up one by one ----
-      gsap.set(".process-card", { yPercent: 105 });
+      gsap.set(".process-card", { yPercent: 60 });
       gsap.set(".pk-card", { opacity: 0.18 });
       const procTl = gsap
         .timeline({

@@ -1365,3 +1365,27 @@ a.float-item:hover .float-name { opacity: 1; }
 .services .big-p { font-size: clamp(22px, 2.3vw, 38px); }
 .services .lead-in { font-size: clamp(16px, 1.3vw, 20px); }
 .svc-item { font-size: clamp(24px, 3.1vw, 48px); }
+
+/* "My main areas of design are" + the service list: a little smaller again */
+.services .lead-in { font-size: clamp(14px, 1.1vw, 17px); }
+.svc-item { font-size: clamp(20px, 2.4vw, 38px); }
+
+/* "A product is beautiful…" smaller; "Simple, useful and intuitive…" shifted right and smaller */
+.rise-copy { font-size: clamp(26px, 3.6vw, 56px); }
+@media (min-width: 900px) {
+  .craft { padding-left: 12vw; }
+}
+.craft .craft-title { font-size: clamp(26px, 3.6vw, 56px); }
+.craft .craft-p { font-size: clamp(15px, 1.4vw, 22px); }
+
+/* pull "Simple, useful and intuitive…" up closer to "A product is beautiful…" */
+.craft { padding-top: 7vh; }
+
+/* the rise panel is a full screen tall with its text centred; overlap its empty lower half (both white) */
+.rise + .craft { margin-top: -38vh; padding-top: 7vh; }
+
+/* less white above "From problem to solution": overlap the tiles section's empty tail (both white) */
+.float-field + .process { margin-top: -40vh; }
+
+/* "Simple, useful and intuitive experiences." heading: a bit smaller still */
+.craft .craft-title { font-size: clamp(22px, 2.8vw, 44px); }
