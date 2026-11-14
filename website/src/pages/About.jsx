@@ -136,12 +136,6 @@ export default function About() {
           });
         },
       });
-
-      // closing CTA
-      gsap.from(".cta-title .w", {
-        y: 50, opacity: 0, stagger: 0.06, duration: 0.8, ease: "power3.out",
-        scrollTrigger: { trigger: ".cta", start: "top 70%" },
-      });
     }, root);
 
     return () => {
@@ -264,11 +258,6 @@ export default function About() {
         <div className="mq-row"><div className="mq-track mq-b">
           {rowB.map((s, i) => <span key={i} className="mq-skill outline">{s}<i>✦</i></span>)}
         </div></div>
-      </section>
-
-      <section className="cta">
-        <Words as="h2" className="cta-title">Let’s build something useful.</Words>
-        <Link className="lime-btn big" to="/contact">Get in touch</Link>
       </section>
 
       <AzFooter />

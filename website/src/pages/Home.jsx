@@ -5,13 +5,11 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import { listProjects } from "../services/projects";
-import { PROFILE } from "../content";
 import { firebaseReady } from "../firebase";
 import { AzNav, Loader, PixelTitle } from "../components/AzChrome.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const EMAIL = "rakeshparvathneni26@gmail.com";
 const PAPER = "#ffffff";
 
 const SERVICES = [
@@ -253,15 +251,6 @@ export default function Home() {
         y: 50, opacity: 0, stagger: 0.12, duration: 0.8, ease: "power3.out",
         scrollTrigger: { trigger: ".people", start: "top 65%" },
       });
-      // ---- 9. Closing CTA ----
-      gsap.from(".cta-title .w", {
-        y: 50,
-        opacity: 0,
-        stagger: 0.06,
-        duration: 0.8,
-        ease: "power3.out",
-        scrollTrigger: { trigger: ".cta", start: "top 70%" },
-      });
     }, root);
 
     return () => {
@@ -444,18 +433,6 @@ export default function Home() {
         </Words>
         <Link className="lime-btn" to="/about">About me</Link>
       </section>
-      {/* 9 · CTA + footer */}
-      <section className="cta">
-        <Words as="h2" className="cta-title">New project, new challenge?</Words>
-        <Link className="lime-btn big" to="/contact">Get in touch</Link>
-        <a className="cta-mail" href={`mailto:${EMAIL}`}>{EMAIL}</a>
-        <div className="az-cta-info">
-          <span><i>Based in</i>{PROFILE.location}</span>
-          <span><i>Phone</i>{PROFILE.phone}</span>
-          <span><i>Role</i>{PROFILE.role}</span>
-        </div>
-      </section>
-
       <AzFooter />
     </div>
   );

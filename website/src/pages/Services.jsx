@@ -4,7 +4,6 @@ import AzFooter from "../components/AzFooter.jsx";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
-import { PROFILE } from "../content";
 import { Logo } from "../components/AzChrome.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -223,12 +222,6 @@ export default function Services() {
       });
       ptl.to({}, { duration: 0.6 });
 
-      // ---------------- closing ----------------
-      gsap.from(".az-cta .w", {
-        y: 50, opacity: 0, stagger: 0.06, duration: 0.8, ease: "power3.out",
-        scrollTrigger: { trigger: ".az-cta", start: "top 70%" },
-      });
-
       // ---------------- lime badge: an eye in the hero that shrinks to a dot as you scroll, gone by the end ----------------
       gsap.to(".az-card-eye", {
         scale: 0.5, ease: "none",
@@ -380,18 +373,6 @@ export default function Services() {
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* cta */}
-      <section className="az-cta">
-        <Words as="h2">Got an idea to share?</Words>
-        <p>Tell me about your project — I’ll get back to you.</p>
-        <Link className="az-pill big" to="/contact">Contact me</Link>
-        <div className="az-cta-info">
-          <span><i>Based in</i>{PROFILE.location}</span>
-          <span><i>Phone</i>{PROFILE.phone}</span>
-          <span><i>Role</i>{PROFILE.role}</span>
         </div>
       </section>
 

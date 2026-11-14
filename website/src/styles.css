@@ -1389,3 +1389,40 @@ a.float-item:hover .float-name { opacity: 1; }
 
 /* "Simple, useful and intuitive experiences." heading: a bit smaller still */
 .craft .craft-title { font-size: clamp(22px, 2.8vw, 44px); }
+
+/* "People, ideas and meaningful experiences.": smaller type, shifted right */
+@media (min-width: 900px) {
+  .people { padding-left: 12vw; }
+}
+.people .ppl-title { font-size: clamp(26px, 3.6vw, 56px); }
+.people .ppl-text { font-size: clamp(15px, 1.4vw, 22px); }
+
+/* ================= FOOTER (Airbag layout) ================= */
+.rf { background: #000; color: #fff; padding: clamp(60px, 11vh, 120px) clamp(18px, 5.2vw, 80px) 0; font-family: "Inter Tight", system-ui, sans-serif; }
+.rf a { color: inherit; }
+.rf-grid {
+  display: grid; align-items: start; row-gap: clamp(36px, 7vh, 70px); column-gap: 24px;
+  grid-template-columns: 90px minmax(0, 1fr) minmax(0, 1.6fr) minmax(0, 1.2fr);
+}
+.rf-logo img { display: block; height: 56px; width: auto; }
+.rf-brand { font-size: clamp(22px, 1.9vw, 30px); line-height: 1.1; align-self: center; }
+.rf-brand b { font-weight: 650; font-family: "Archivo", sans-serif; }
+.rf-mail { font-size: 15px; align-self: center; }
+.rf-mail:hover, .rf-links a:hover, .rf-social a:hover { color: #bdff00; }
+.rf-social { display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: flex-end; align-self: center; font-size: 15px; padding-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,.3); min-height: 40px; }
+.rf-col { display: grid; gap: 10px; align-content: start; font-size: 15px; line-height: 1.35; }
+.rf-col p { margin: 0; }
+.rf-h { color: #ff6620; font-weight: 650; font-size: 16px; }
+.rf-loc { grid-column: 2; grid-row: 2; }
+.rf-tel { grid-column: 3; grid-row: 2; }
+.rf-links { grid-column: 4; grid-row: 2; display: grid; grid-template-columns: repeat(3, auto); justify-content: space-between; gap: 12px 24px; font-size: 15px; align-content: start; }
+.rf-bottom {
+  display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  margin-top: clamp(60px, 12vh, 130px); padding: 22px 0 28px; font-size: 13px; border-top: 1px solid rgba(255,255,255,.25);
+}
+@media (max-width: 899px) {
+  .rf-grid { grid-template-columns: 1fr; }
+  .rf-loc, .rf-tel, .rf-links { grid-column: auto; grid-row: auto; }
+  .rf-social { justify-content: flex-start; }
+  .rf-links { grid-template-columns: repeat(2, auto); justify-content: start; }
+}
