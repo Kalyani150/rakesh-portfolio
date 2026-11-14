@@ -1346,3 +1346,10 @@ a.float-item:hover .float-name { opacity: 1; }
 
 /* WebGL layer that makes the hero name react to the cursor (sits exactly over the 2D canvas) */
 .az-pixel-gl { position: absolute; left: 0; top: 0; pointer-events: none; display: block; }
+
+/* copy sits further left inside the cards (desktop) */
+@media (min-width: 900px) {
+  .intro-panel { padding-left: 12vw; }
+  .face { padding-left: 7vw; }
+  .panel-copy, .about-face { max-width: min(760px, 48vw); }
+}
