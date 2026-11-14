@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { listProjects, createProject, updateProject, removeProject } from "../services/projects";
 import { useToast } from "../components/Toast.jsx";
-import { ConfirmButton, ImagePreview } from "../components/Fields.jsx";
+import { ConfirmButton, ImagePreview, RowList } from "../components/Fields.jsx";
 import { getContent, saveContent } from "../services/content";
 import legacyProjects from "../data/legacyProjects.json";
 
 let autoImportStarted = false;
 
-const BLANK = { title: "", category: "", description: "", imageUrl: "", link: "", order: 0 };
+const BLANK = { title: "", category: "", description: "", imageUrl: "", link: "", role: "", year: "", tools: "", longDescription: "", images: [], order: 0 };
 const isUrl = (v) => !v || /^https?:\/\//i.test(v.trim());
 
 function validate(f) {
@@ -15,6 +15,7 @@ function validate(f) {
   if (!f.title.trim()) e.title = "Title is required.";
   if (!isUrl(f.imageUrl)) e.imageUrl = "Must start with http:// or https://";
   if (!isUrl(f.link)) e.link = "Must start with http:// or https://";
+  if ((f.images || []).some((u) => !isUrl(u))) e.images = "Every extra image must start with http:// or https://";
   return e;
 }
 
@@ -98,6 +99,10 @@ export default function Projects() {
     const f = {
       title: p.title || "", category: p.category || "", description: p.description || "",
       imageUrl: p.imageUrl || "", link: p.link || "", order: p.order ?? 0,
+      role: p.role || "", year: p.year || "",
+      tools: Array.isArray(p.tools) ? p.tools.join(", ") : p.tools || "",
+      longDescription: p.longDescription || "",
+      images: Array.isArray(p.images) ? p.images : [],
     };
     setEditingId(p.id); setForm(f); setBase(f); setErrors({});
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -219,6 +224,36 @@ export default function Projects() {
             {err("imageUrl")}
             <ImagePreview url={form.imageUrl} />
           </div>
+          <div className="field">
+            <label htmlFor="longDescription">Full details (project page)</label>
+            <textarea id="longDescription" rows="5" value={form.longDescription}
+              onChange={(e) => set("longDescription", e.target.value)} />
+          </div>
+          <div className="row2">
+            <div className="field">
+              <label htmlFor="role">Role</label>
+              <input id="role" value={form.role} onChange={(e) => set("role", e.target.value)} />
+            </div>
+            <div className="field">
+              <label htmlFor="year">Year</label>
+              <input id="year" value={form.year} onChange={(e) => set("year", e.target.value)} />
+            </div>
+          </div>
+          <div className="field">
+            <label htmlFor="tools">Tools</label>
+            <input id="tools" placeholder="Figma, Photoshop" value={form.tools} onChange={(e) => set("tools", e.target.value)} />
+          </div>
+          <RowList title="Extra image" items={(form.images || []).map((url) => ({ url }))}
+            onChange={(rows) => set("images", rows.map((r) => r.url))}
+            blank={{ url: "" }} addLabel="Add extra image"
+            renderRow={(r, patch) => (
+              <>
+                <input aria-label="Image URL" placeholder="https://…" value={r.url}
+                  onChange={(e) => patch("url", e.target.value)} />
+                <ImagePreview url={r.url} />
+              </>
+            )} />
+          {err("images")}
           <div className="field">
             <label htmlFor="link">Project link</label>
             <input id="link" placeholder="https://…" value={form.link}

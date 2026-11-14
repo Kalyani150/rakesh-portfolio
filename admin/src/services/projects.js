@@ -47,6 +47,11 @@ function normalize(data) {
     description: (data.description || "").trim(),
     imageUrl: (data.imageUrl || "").trim(),
     link: (data.link || "").trim(),
+    role: (data.role || "").trim(),
+    year: (data.year || "").trim(),
+    tools: (data.tools || "").trim(),
+    longDescription: (data.longDescription || "").trim(),
+    images: (Array.isArray(data.images) ? data.images : []).map((u) => (u || "").trim()).filter(Boolean),
     order: Number(data.order) || 0,
   };
 }
