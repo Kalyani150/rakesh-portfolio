@@ -159,6 +159,7 @@ export default function Home() {
         .fromTo(".cube", { rotationX: 0 }, { rotationX: 90, ease: "power2.inOut", duration: 1.3 }, 3.2)
         .to(".device-a", { autoAlpha: 0, duration: 0.3 }, 3.7)
         .to(".device-b", { autoAlpha: 1, duration: 0.3 }, 3.7)
+        .to(".device-card", { backgroundColor: "#ffffff", duration: 0.3 }, 3.7)
         .to({}, { duration: 1.2 }, 4.5); // hold on the grey card
 
       // ---- 5. Services: dim → bright word reveal, then the list ----
@@ -315,8 +316,12 @@ export default function Home() {
           </div>
 
           <div className="device" aria-hidden="true">
-            <span className="device-a">◎</span>
-            <span className="device-b">▮▮▮</span>
+            <i className="device-frame f1" />
+            <i className="device-frame f2" />
+            <div className="device-card">
+              <span className="device-a"><b /><b /></span>
+              <span className="device-b"><em><i /><i /><i /></em></span>
+            </div>
           </div>
         </div>
       </section>

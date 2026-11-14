@@ -1303,3 +1303,43 @@ a.float-item:hover .float-name { opacity: 1; }
 /* Works button stays pinned in the middle of the screen while the tiles float past */
 .float-field { height: 240vh; }
 .float-copy { position: sticky; top: 0; height: 100vh; }
+
+/* ---- floating card on the right of the intro, like the reference ----
+   crimson card with two circles over the orange panel; turns white with a traffic-light icon on the beige face;
+   two tilted outline frames sit behind it. */
+.device {
+  background: none; box-shadow: none; border-radius: 0; font-size: 0;
+  width: clamp(96px, 13vw, 230px); height: clamp(110px, 15vw, 265px);
+  right: 6vw; bottom: 12vh; left: auto; top: auto;
+}
+@media (min-width: 900px) { .device { left: 67vw; right: auto; top: 42vh; bottom: auto; } }
+.device-card {
+  position: absolute; inset: 0; border-radius: 22px; background: var(--accent); z-index: 1;
+  box-shadow: 0 18px 44px rgba(0,0,0,.10);
+}
+.device-card span { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
+.device-a b { width: 22%; aspect-ratio: 1; border: 2px solid #fff; border-radius: 50%; }
+.device-a b + b { margin-left: -8%; }
+.device-b em { display: flex; flex-direction: column; gap: 4%; padding: 4%; width: 28%; border: 1.5px solid #3a0e1d; border-radius: 999px; font-style: normal; }
+.device-b i { display: block; aspect-ratio: 1; border: 2px solid #ff6620; border-radius: 50%; }
+.device-frame { position: absolute; display: block; border: 2.5px solid #841a3b; border-radius: 4px; z-index: 0; }
+.device-frame.f1 { width: 120%; height: 72%; left: -30%; top: -6%; transform: rotate(-24deg); }
+.device-frame.f2 { width: 120%; height: 68%; right: -32%; bottom: -6%; transform: rotate(-15deg); }
+
+/* keep the copy on the left so it never runs under the floating card (card starts at 67vw) */
+.intro-panel { justify-items: start; padding: 0 0 0 20vw; }
+.face { justify-items: start; padding: 0 0 0 15vw; }
+.panel-copy, .about-face { max-width: min(760px, 44vw); }
+.about-face h2.about-lead { max-width: 100%; }
+@media (max-width: 899px) {
+  .intro-panel { padding: 0 8vw; }
+  .face { padding: 0 6vw; }
+  .panel-copy, .about-face { max-width: 100%; }
+}
+
+/* hero: name sits lower, tagline is exactly two lines on desktop */
+@media (min-width: 900px) {
+  .az-pixel { top: 26vh; }
+  .hero-tag { max-width: none; width: max-content; }
+  .hero-tag p { white-space: nowrap; }
+}
